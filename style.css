@@ -1,0 +1,132 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: gainsboro;
+}
+header {
+    background-color: #04edf5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    position: sticky;
+    top: 0;
+    padding: 0;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+.sticky-nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.sticky-nav a {
+    text-decoration: none;
+    color: #030303;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sticky-nav a:hover {
+    color: #fc0101;
+    font-weight: bolder;
+    transition: .5s all;
+    font-size: 22px;
+}
+
+#books{
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+        border-radius: 5px;
+        width: 40vw;
+        margin-top: 1%;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+td, th{
+    border: 1px solid black;
+}
+
+.table1{
+    padding: 10px;
+}
+.table2{
+    padding: 10px;
+}
+.top{
+    margin-top: 10px;
+}
+td,th{
+    padding: 10px;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+}
+
+.container h2 {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="date"],
+.form-group input[type="number"] {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #2f2f33;
+}
